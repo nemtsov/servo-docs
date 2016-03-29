@@ -36,7 +36,6 @@ A specific commit from the GitHub repo that has gone through a user-defined buil
 An event to push code and config changes to a stack.
 
 ## Components
-The three layers of the PaaS:
 
 ### [servo-core](http://github.com/dowjones/servo-core)
 The heavy lifter! This layer communicates with AWS via APIs to create an immutable application infrastructure. Each organization can have its own core managing org specific apps within the same AWS account. When deploying an application within servo, it manages AWS resources for deploys so you don't have to.
