@@ -11,7 +11,9 @@ In addition, you can skip auto-detection by placing a `.servo` file in the root 
   "platform": "docker"
 }
 ```
-This still requires the existence of a `Dockerfile` in the root of the repository.
+*This still requires the existence of a `Dockerfile` in the root of the repository.*
+
+The Dockerfile should add the code to the image & run the application at the end. This means that the last line of the Dockerfile should be a `CMD` entry that runs the application. *No arguments can be passed into the `docker run` command.*
 
 ## Build
 The build process is very simple and just calls one command: `docker build` from the root of your repository. No additional parameters are passed in during the build process and the resulting image is saved and pushed to S3.
