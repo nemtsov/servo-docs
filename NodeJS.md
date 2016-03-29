@@ -16,10 +16,11 @@ In addition, you can skip auto-detection by placing a `.servo` file in the root 
   "platform": "nodejs"
 }
 ```
-This still requires the existence of `server.js` & `package.json` in the root directory.
+*This still requires the existence of `server.js` & `package.json` in the root directory.*
 
 ## Build
 The build executes the following commands:
+
 1. `npm install --unsafe-perm`
 2. `npm test`
 3. `npm prune --production`
