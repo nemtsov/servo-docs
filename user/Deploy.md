@@ -18,6 +18,9 @@ The `deploy` process, uses an existing build and deploys it on a scalable applic
 2. Should respond with a `200` for the route `/_health`;
 
 ## Supported platforms
-* [User Documentation](README.md)
 * [NodeJS](NodeJS.md)
 * [Docker](Docker.md)
+
+## Related
+* [User Documentation](README.md)
+
