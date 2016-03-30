@@ -30,5 +30,5 @@ The resulting run command looks like the following:
 
 
 ## Related
-1. [Deployment Basics](Deploy.md)
-2. [NodeJS](NodeJS.md)
+* [Deployment Basics](Deploy.md)
+* [NodeJS](NodeJS.md)

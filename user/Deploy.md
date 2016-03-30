@@ -13,10 +13,10 @@ The `deploy` process, uses an existing build and deploys it on a scalable applic
 ## Application basics
 
 1. App server must listen to the `PORT` environment variable.
-  * `53840` for Node 
+  * `53840` for Node
   * `80` for Docker.
 2. Should respond with a `200` for the route `/_health`;
 
 ## Supported platforms
-1. [NodeJS](NodeJS.md)
-2. [Docker](Docker.md)
+* [NodeJS](NodeJS.md)
+* [Docker](Docker.md)
