@@ -3,5 +3,5 @@
 * [Set SSL certs (HTTPS) on ELBs](Https.md)
 * [Add new users](NewUser.md)
 
-## Related platforms
+## Related
 1. [Documentation Home](../README.md)
