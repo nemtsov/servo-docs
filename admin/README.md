@@ -4,4 +4,4 @@
 * [Add new users](NewUser.md)
 
 ## Related
-1. [Documentation Home](../README.md)
+* [Documentation Home](../README.md)
