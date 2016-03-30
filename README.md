@@ -4,20 +4,11 @@ Made by developers for developers!
 
 Applications deployed on Servo should follow the [12 Factor App](http://12factor.net/) guidelines.
 
-[Deployment Basics](Deploy.md)
+The documentation is broken up into two sections:
+* [User documentation](user/README.md)
+* [Admin documentation](admin/README.md)
 
-## Quick Start
-1. Push code to GitHub
-2. Create an App in Servo linked to the GitHub repo
-3. Create a Stack
-4. Run a Build of the commit you would like to Deploy
-5. After the Build completes, Deploy the Build to the Stack
-6. Configure the Network Access for the Stack to allow traffic
-7. Access the Stack through one of the Endpoint links on the Stack page
-8. Take some time for yourself with all the time you just saved!
-
-
-## Terminology
+##  Common Terminology
 ### Org
 An isolated Servo environment with separate permissions and networks.
 
