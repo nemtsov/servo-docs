@@ -8,9 +8,11 @@ SiteControl is a feature built within Servo, however it is not directly related 
 
 * Region
 * Weight
+  * Used to distribute traffic within a Region.
 * HealthCheck
-  * Type of healthcheck to determine the health of an origin
+  * Type of healthcheck (`TCP`|`HTTP GET`|`HTTPS GET`) to determine the health if an origin is healthy
 * Failover
+  * Indicates if this is a failover record type (traffic will automatically shift to this endpoint if no primary origins are healthy)
 
 ## Related
 1. [User Documentation](README.md)
