@@ -13,4 +13,4 @@ SiteControl is a feature built within Servo, however it is not directly related 
 * Failover
 
 ## Related
-1. [User Documentation](README.md)
+* [User Documentation](README.md)
