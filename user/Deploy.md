@@ -20,3 +20,7 @@ The `deploy` process, uses an existing build and deploys it on a scalable applic
 ## Supported platforms
 * [NodeJS](NodeJS.md)
 * [Docker](Docker.md)
+
+## Related
+* [User Documentation](README.md)
+

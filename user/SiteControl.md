@@ -15,4 +15,4 @@ SiteControl is a feature built within Servo, however it is not directly related 
   * Indicates if this is a failover record type (traffic will automatically shift to this endpoint if no primary origins are healthy)
 
 ## Related
-1. [User Documentation](README.md)
+* [User Documentation](README.md)
