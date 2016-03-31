@@ -1,7 +1,8 @@
 # Setup Documentation
 
 Most of setup for `servo` requires AWS knowledge.
-The setup for each component is contained within the documentation within the repository.
+
+The setup for each component is contained within the documentation of the repository.
 
 1. [`servo-core`](https://github.com/dowjones/servo-core/blob/release/OS/docs/README.md)
   * [IAM Role](https://github.com/dowjones/servo-core/blob/release/OS/docs/IAM.md)
