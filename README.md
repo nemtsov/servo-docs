@@ -1,8 +1,30 @@
 # Servo (The PaaS)
 
-Made by developers for developers!
+## What is Servo?
+Servo allows developers to deploy their NodeJS or Docker applications on a scalable application infrastructure within the cloud with a click of a button. 
+
+By deploying within Servo, you automatically recieve the following:
+* Environments
+  * Ability to create multiple stacks for different environments (dev, staging, production)
+  * Each can be configured with different environment variables.
+* Security
+  * App owners can control user permissions on their applications and stacks. 
+  * Lock down network access to your application to only trusted IP ranges
+* Monitoring
+  * Log monitoring for application logs
+  * Application & Server monitoring in NewRelic with NodeJS applications (if configured)
+* Notifications
+  * Email, Slack, Twilio, Webhook, or Opsgenie notifications
+  * On any events related to Autoscaling, Site Health, Deployments, etc. 
+* SiteControl
+  * Manage traffic across multiple regions with failover options
+  * Allows app teams to suspend an origin in under 3 minutes
+* Many more features that make your life easier! :)
 
 Applications deployed on Servo should follow the [12 Factor App](http://12factor.net/) guidelines.
+
+The purpose of Servo is to abstract the technicalities of the cloud and provide a clean experience for developers to deploy their applications. Through the process of abstracting the details, servo standardizes that creation and management of cloud resources. 
+Currently it is built upon Amazon Web Services(AWS), but its principles can be extended to any other cloud provider. 
 
 The documentation is broken up into the following sections:
 * [Setup Documentation](setup/README.md)
