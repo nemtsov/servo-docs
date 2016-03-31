@@ -4,9 +4,11 @@ Made by developers for developers!
 
 Applications deployed on Servo should follow the [12 Factor App](http://12factor.net/) guidelines.
 
-The documentation is broken up into two sections:
-* [User documentation](user/README.md)
+The documentation is broken up into the following sections:
+* [Setup Documentation](setup/README.md)
 * [Admin documentation](admin/README.md)
+* [User documentation](user/README.md)
+
 
 ##  Common Terminology
 ### Org
@@ -29,7 +31,7 @@ An event to push code and config changes to a stack.
 ## Components
 
 ### [servo-ami](https://github.com/dowjones/servo-ami)
-This is the AMI that powers all of the deployments within the PaaS. It sets up a small nginx server in front of your app and installs basic dependencies for Node, Docker & AWS CloudWatch Logs. 
+This is the AMI that powers all of the deployments within the PaaS. It sets up a small nginx server in front of your app and installs basic dependencies for Node, Docker & AWS CloudWatch Logs.
 
 ### [servo-core](http://github.com/dowjones/servo-core)
 The heavy lifter! This layer communicates with AWS via APIs to create an immutable application infrastructure. Each organization can have its own core managing org specific apps within the same AWS account. When deploying an application within servo, it manages AWS resources for deploys so you don't have to.
